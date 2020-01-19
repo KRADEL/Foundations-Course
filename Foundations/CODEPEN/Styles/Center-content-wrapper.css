@@ -1,0 +1,80 @@
+.Center-Content > .Center-columns {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset -200px -200px 225px 155px rgba(0,0,0,0.6);
+    background-color: rgb(65, 65, 65);
+    padding-top: 15px;
+    height: 550px;
+}
+
+.Center-Content > .Center-columns > .Left-content {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.Center-Content > .Center-columns > .Right-content {
+    display: flex;
+    flex-direction: column;
+    margin-right: -155px;
+}
+
+.Left-content {
+    padding-right: 55px;
+    padding-left: 50px;
+}
+
+.Left-content > .p-1 {
+    font-size: 45px;
+    color: white;
+    display: flex;
+    margin-bottom: -25px;
+}
+
+mark.bold {
+    font-weight: bolder;
+    background: none;
+    color: white;
+}
+
+.Left-content > .p-2 {
+    color: rgb(151, 149, 149);
+    font-size: 38px;
+    display: flex;
+    margin-top: -25px;
+}
+
+.Left-Content-Buttons > .free-btn {
+    border: none;
+    border-radius: 3px 3px;
+    padding: 10px 40px;
+    background-color: rgb(127, 231, 127);
+    color: black;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.Left-Content-Buttons > .learn-btn {
+    border: none;
+    border-radius: 3px 3px;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+}
+
+.Right-content > .img-header {
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 30px;
+    width: 700px;
+    display: flex;
+    
+}
+
+mark.blue {
+    font-weight: bolder;
+    background: none;
+    color: rgb(94, 169, 255);
+}
